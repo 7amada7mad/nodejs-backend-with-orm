@@ -1,0 +1,21 @@
+{
+  "name": "backend-with-orm",
+  "version": "1.0.0",
+  "description": "Node.js application with Prisma",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "author": "Ahmad Hamad",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^6.0.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9",
+    "prisma": "^6.0.1"
+  }
+}
